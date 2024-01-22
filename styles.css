@@ -20,6 +20,11 @@ header, section, footer, nav, figure{
     display: block;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 .background-image{
     height: 100%;
     width: 100%;
@@ -28,6 +33,15 @@ header, section, footer, nav, figure{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+
+    border: 2px solid red;
 }
 
 
@@ -78,4 +92,16 @@ a:hover{
   
 .dropdown:hover .dropdown-list {
     display: block;
+}
+
+
+/*MENU*/
+.top-menu{
+    border: 2px solid blue;
+    height: 100px;
+}
+
+.bottom-menu{
+    border: 2px solid green;
+    height: 100px;
 }
