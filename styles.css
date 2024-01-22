@@ -21,7 +21,7 @@ header, section, footer, nav, figure{
     display: block;
 }
 
-main{
+body{
     display: flex;
     flex-direction: column;
 }
@@ -39,11 +39,16 @@ main{
 .wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 100vh;
+    justify-content: center;
+    align-items: center;
     border: 2px solid red;
+    height: 72vh;
 }
 
+h1{
+    font-size: 4rem;
+    color: var(--hover);
+}
 
 /*DROPDOWN*/
 .dropdown {
@@ -102,11 +107,9 @@ a:hover{
 
 .bottom-menu{
     border: 2px solid green;
-    height: auto;
-
-    position: fixed;
     bottom: 0;
     width: 100%;
+    position: fixed;
 }
 
 .menu-list{
