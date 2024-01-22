@@ -9,6 +9,7 @@
 
 :root{
     font-size: 62.5%;
+    font-family: 'Exo 2', sans-serif;
     --font: #333A41;
     --background: #f2f2f2;
     --menu: #EBF2FD;
@@ -51,7 +52,6 @@ main{
     justify-content: center;
     height: auto;
     padding: 5px;
-    font-family: 'Exo 2', sans-serif;
     font-size: 2rem;
     background-color: var(--font);
     line-height: 2.5;
@@ -98,10 +98,19 @@ a:hover{
 /*MENU*/
 .top-menu{
     border: 2px solid blue;
-    height: 100px;
+    height: auto;
 }
 
 .bottom-menu{
     border: 2px solid green;
-    height: 100px;
+    height: auto;
+}
+
+.menu-list{
+    color: var(--font);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
