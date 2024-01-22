@@ -40,8 +40,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 100vh;
-
+    height: 100vh;
     border: 2px solid red;
 }
 
@@ -104,6 +103,10 @@ a:hover{
 .bottom-menu{
     border: 2px solid green;
     height: auto;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .menu-list{
