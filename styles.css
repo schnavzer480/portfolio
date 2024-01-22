@@ -133,3 +133,15 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
+
+.menu-list a:link{
+    color: var(--font);
+    text-decoration: none;
+}
+.menu-list a:visited{
+    color: var(--font);
+}
+.menu-list a:hover{
+    font-weight: lighter;
+    font-style: normal;
+}
