@@ -39,12 +39,11 @@ body{
 
 
 /*MAIN*/
-.wrapper{
+.author{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid red;
     height: 72vh;
     text-transform: uppercase;
 }
@@ -114,12 +113,10 @@ a:hover{
 
 /*MENU*/
 .top-menu{
-    border: 2px solid blue;
     height: auto;
 }
 
 .bottom-menu{
-    border: 2px solid green;
     bottom: 0;
     width: 100%;
     position: fixed;
