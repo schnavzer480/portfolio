@@ -9,8 +9,11 @@
 
 :root{
     font-size: 62.5%;
-    --font: #212427;
+    --font: #333A41;
     --background: #f2f2f2;
+    --menu: #EBF2FD;
+    --clicked: rgb(153, 221, 17);
+    --hover: #cf1e5c;
 }
 
 header, section, footer, nav, figure{
@@ -36,15 +39,15 @@ header, section, footer, nav, figure{
     padding: 5px;
     font-family: 'Exo 2', sans-serif;
     font-size: 2rem;
-    background-color: var(--headerbg);
-    line-height: 3;
+    background-color: var(--font);
+    line-height: 2.5;
 }
 
 .icon{
     width: 45px;
     height: 5px;
     margin: 6px;
-    background-color: var(--white);
+    background-color: var(--background);
 }
 
 li{
@@ -52,14 +55,14 @@ li{
 }
 
 a:link{
-    color: var(--white);
+    color: var(--menu);
     text-decoration: none;
 }
 a:visited{
-    color: rgb(22, 87, 141);
+    color: var(--clicked);
 }
 a:hover{
-    color: rgba(22, 87, 141, 0.256);
+    color: var(--hover);
     font-style: italic;
 }
   
@@ -70,7 +73,7 @@ a:hover{
     min-width: 100%;
     padding: 20px 16px;
     z-index: 1;
-    background-color: var(--headerbg);
+    background-color: var(--font);
 }
   
 .dropdown:hover .dropdown-list {
