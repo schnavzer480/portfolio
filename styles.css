@@ -142,3 +142,28 @@ a:hover{
     font-weight: lighter;
     font-style: normal;
 }
+
+
+
+/*WEBDEV*/
+
+.header-box{
+    padding: 10px 0 0 10px;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--font);
+    box-shadow: 15px 15px 20px var(--font);
+    backdrop-filter: blur(2px);
+}
+
+.content-wrapper img{
+    width: 130px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--font);
+    margin: 15px;
+}
