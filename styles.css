@@ -226,9 +226,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    argin-top: 300px;
-
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     bottom: 0;
     width: 100%;
     position: fixed;
