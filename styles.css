@@ -38,7 +38,7 @@ body{
 
 
 
-/*MAIN*/
+/*INDEX*/
 .author{
     display: flex;
     flex-direction: column;
@@ -151,7 +151,8 @@ a:hover{
     padding: 10px 0 0 10px;
 }
 
-.content-wrapper{
+
+.webdev-wrapper{
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -160,14 +161,12 @@ a:hover{
     box-shadow: 15px 15px 20px var(--font);
     backdrop-filter: blur(10px);
 }
-
-.content-wrapper img{
+.webdev-wrapper img{
     width: 130px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--font);
     margin: 15px;
 }
-
 .contact-wrapper{
     display: flex;
     flex-direction: column;
@@ -178,14 +177,12 @@ a:hover{
     backdrop-filter: blur(10px);
     height: auto;
 }
-
 .contact-wrapper p, ul{
     margin: 20px;
     line-height: 1.5;
     font-size: 2rem;
     margin: 20px;
 }
-
 .contact-wrapper a:link{
     color: var(--font);
     text-decoration: none;
@@ -201,6 +198,7 @@ a:hover{
     font-style: normal;
 }
 
+
 .about-wrapper{
     display: flex;
     flex-direction: column;
@@ -211,7 +209,6 @@ a:hover{
     backdrop-filter: blur(10px);
     height: auto;
 }
-
 .about-wrapper p{
     margin: 20px;
     line-height: 1.5;
@@ -219,6 +216,9 @@ a:hover{
     margin: 20px;
 }
 
+
+
+/*HOME BUTTON*/
 .home{
     display: flex;
     justify-content: center;
