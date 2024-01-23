@@ -160,6 +160,7 @@ a:hover{
     border: 2px solid var(--font);
     box-shadow: 15px 15px 20px var(--font);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .webdev-wrapper img{
     width: 130px;
@@ -175,6 +176,7 @@ a:hover{
     border: 2px solid var(--font);
     box-shadow: 15px 15px 20px var(--font);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     height: auto;
 }
 .contact-wrapper p, ul{
@@ -207,6 +209,7 @@ a:hover{
     border: 2px solid var(--font);
     box-shadow: 15px 15px 20px var(--font);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     height: auto;
 }
 .about-wrapper p{
