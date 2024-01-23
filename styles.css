@@ -201,6 +201,24 @@ a:hover{
     font-style: normal;
 }
 
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--font);
+    box-shadow: 15px 15px 20px var(--font);
+    backdrop-filter: blur(2px);
+    height: auto;
+}
+
+.about-wrapper p{
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 2rem;
+    margin: 20px;
+}
+
 .home{
     display: flex;
     justify-content: center;
