@@ -176,11 +176,9 @@ a:hover{
 }
 
 .home a{
-    border-radius: 20px;
-    border: 2px solid var(--font);
-    box-shadow: 15px 15px 20px var(--font);
-    backdrop-filter: blur(2px);
-    padding: 20px;
+    border-top: 2px solid var(--font);
+    border-bottom: 2px solid var(--font);
+    padding: 15px;
     color: var(--font);
     font-size: 2rem;
     text-transform: uppercase;
