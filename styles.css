@@ -226,7 +226,12 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    argin-top: 300px;
+
+    margin-bottom: 100px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
 
 .home a{
