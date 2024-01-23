@@ -122,7 +122,7 @@ a:hover{
     position: fixed;
 }
 
-.menu-list{
+.menu-list, .home{
     color: var(--font);
     font-size: 2rem;
     text-transform: uppercase;
@@ -131,14 +131,14 @@ a:hover{
     justify-content: space-between;
 }
 
-.menu-list a:link{
+.menu-list, .home a:link{
     color: var(--font);
     text-decoration: none;
 }
-.menu-list a:visited{
+.menu-list, .home a:visited{
     color: var(--font);
 }
-.menu-list a:hover{
+.menu-list, .home a:hover{
     font-weight: lighter;
     font-style: normal;
 }
@@ -166,4 +166,19 @@ a:hover{
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--font);
     margin: 15px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.home a{
+    border-radius: 20px;
+    border: 2px solid var(--font);
+    box-shadow: 15px 15px 20px var(--font);
+    backdrop-filter: blur(2px);
+    padding: 20px;
 }
