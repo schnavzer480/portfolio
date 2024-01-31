@@ -150,16 +150,21 @@ a:hover{
     padding: 10px 0 0 10px;
 }
 
-
+.webdev-container{
+    display: flex;
+    justify-content: center;
+}
 .webdev-wrapper{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 30px;
+    padding: 15px;
     border-radius: 20px;
     border: 2px solid var(--font);
     box-shadow: 15px 15px 20px var(--font);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    width: 1500px;
 }
 .webdev-wrapper img{
     width: 130px;
@@ -210,6 +215,7 @@ a:hover{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     height: auto;
+    max-width: 750px;
 }
 .about-wrapper p{
     margin: 20px;
@@ -238,4 +244,20 @@ a:hover{
     color: var(--font);
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .index-anchor {
+        padding: 3px;
+        background-color: #EBF2FD;
+        border-top: 2px solid var(--font);
+        border-bottom: 2px solid var(--font);
+
+    }
+
+    .home-anchor {
+        background-color: #ebf2fd62;
+    }
 }
