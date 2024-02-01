@@ -119,6 +119,8 @@ a:hover{
     bottom: 0;
     width: 100%;
     position: fixed;
+
+    border: 2px solid green;
 }
 
 .menu-list{
