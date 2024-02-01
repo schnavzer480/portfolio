@@ -116,8 +116,10 @@ a:hover{
 }
 
 .bottom-menu{
-    bottom: 0;
-    border: 2px solid green;
+    margin: 0;
+}
+.bottom-menu ul{
+    margin: 0;
 }
 
 .menu-list{
@@ -239,8 +241,9 @@ figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 50px 0;
+    margin: 300px 0 50px 0;
     width: 100%;
+    bottom: 0;
 }
 
 .home a{
