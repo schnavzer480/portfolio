@@ -18,6 +18,7 @@
 
 header, section, footer, nav, figure{
     display: block;
+    margin: 0;
 }
 
 body{
@@ -116,7 +117,7 @@ a:hover{
 }
 
 .bottom-menu{
-    margin: 0;
+    margin-bottom: 50px;
 }
 .bottom-menu ul{
     margin: 0;
