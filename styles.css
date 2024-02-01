@@ -189,7 +189,7 @@ figcaption{
 .contact-wrapper{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 30px;
     border-radius: 20px;
     border: 2px solid var(--font);
     box-shadow: 15px 15px 20px var(--font);
@@ -198,7 +198,7 @@ figcaption{
     height: auto;
 }
 .contact-wrapper p, ul{
-    margin: 20px;
+    margin: 30px;
     line-height: 1.5;
     font-size: 2rem;
     margin: 20px;
