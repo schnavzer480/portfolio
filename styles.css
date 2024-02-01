@@ -145,6 +145,9 @@ a:hover{
 
 
 /*WRAPPERS*/
+.content{
+    border: 2px solid red;
+}
 
 .header-box{
     padding: 10px 0 0 10px;
@@ -156,7 +159,8 @@ a:hover{
 }
 .webdev-wrapper{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 30px;
     padding: 15px;
     border-radius: 20px;
@@ -170,7 +174,13 @@ a:hover{
     width: 130px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--font);
-    margin: 15px;
+}
+figcaption{
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    width: 30rem;
+    margin: 10px 0 50px 0;
 }
 .contact-wrapper{
     display: flex;
@@ -231,10 +241,8 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    bottom: 0;
+    margin: 50px 0 50px 0;
     width: 100%;
-    position: fixed;
 }
 
 .home a{
