@@ -117,9 +117,6 @@ a:hover{
 
 .bottom-menu{
     bottom: 0;
-    width: 100%;
-    position: fixed;
-
     border: 2px solid green;
 }
 
@@ -148,7 +145,7 @@ a:hover{
 
 /*WRAPPERS*/
 .content{
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 .header-box{
     padding: 10px 0 0 10px;
