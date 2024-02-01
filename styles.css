@@ -267,6 +267,18 @@ figcaption{
 
     }
 
+    .about-wrapper{
+        margin-bottom: 500px;
+    }
+
+    .webdev-wrapper{
+        flex-direction: row;
+    }
+
+    .home{
+        margin-top: 400px;
+    }
+
     .home-anchor {
         background-color: #ebf2fd62;
     }
