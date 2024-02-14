@@ -59,10 +59,6 @@ h2{
     color: var(--font);
 }
 
-#body-container {
-    height: 100vh;
-}
-
 
 /*DROPDOWN*/
 .dropdown {
