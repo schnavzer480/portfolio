@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SchnavzerSvpremacy web dev & photography portfolio">
-    <meta name="author" content="Christoffer Jonsson">
-    <link href="styles.css" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/site.webmanifest">
-    <script src="dropdown.js"></script>
-    <meta name="theme-color" content="#333A41">
-    <title>Shutter & Code: A Dual Showcase of Photography and Web Expertise</title>
-</head>
 
-<body class="background-image">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="SchnavzerSvpremacy web dev & photography portfolio">
+        <meta name="author" content="Christoffer Jonsson">
+        <link href="/css/styles.css" rel="stylesheet">
+        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/index-main.css" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/favicons/site.webmanifest">
+        <link rel="manifest" href="/favicons/site.webmanifest">
+        <meta name="theme-color" content="#333A41">
+        <title>Shutter & Code: A Dual Showcase of Photography and Web Expertise</title>
+    </head>
 
-    <header>
-        <nav>
-            <div class="dropdown">
-                <div class="menu-icon">
-                    <div class="icon"></div>
-                    <div class="icon"></div>
-                    <div class="icon"></div>
-                </div>
-                <div class="dropdown-list">
-                    <ul class="dd-list">
-                        <li><a href="index.html">home();</a></li>
-                        <li><a href="webdev.html">webDevelopment();</a></li>
-                        <li><a href="https://schnavzersvpremacy.netlify.app" target="_blank">photography();</a></li>
-                        <li><a href="about.html">about();</a></li>
-                        <li><a href="contact.html">contact();</a></li>
+    <body class="background-image">
+
+        <header>
+            <nav class="nav-top">
+                <ul class="laptop-nav-menu">
+                    <li><a href="webdev.html">Web Dev</a></li>
+                    <li><a href="https://schnavzersvpremacy.netlify.app" target="_blank">Photography</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-container">
+                
+                    <div class="title-card">
+                        <h1>Christoffer</h1>
+                        <h2>Jonsson</h2>
+                    </div>
+
+                <div class="main-links">
+                    <ul>
+                        <li>
+                            <a href="webdev.html">
+                                <img src="/icons/code.svg" alt="Web Development">
+                                <span class="link-label">Web Dev</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://schnavzersvpremacy.netlify.app" target="_blank" >
+                                <img src="/icons/camera.svg" alt="Photography">
+                                <span class="link-label">Photography</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <img src="/icons/smile.svg" alt="About">
+                                <span class="link-label">About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">
+                                <img src="/icons/id.svg" alt="Contact">
+                                <span class="link-label">Contacts</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
+        </main>
 
-    <main>
-        <div class="content-index">
-            <div class="top-menu">
-                <ul class="menu-list">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+        <footer>
+            <nav class="nav-bottom">
+                <div class="copy">
+                    <h3>© 2025 Alltjänst Gruvlyckan</h3>
+                </div>
+                <ul class="laptop-nav-menu">
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contacts.html">contact</a></li>
                 </ul>
-            </div>
-            <div class="author">
-                <h1>Christoffer</h1>
-                <h2>Jonsson</h2>
-            </div>
-        </div>
-        <div class="bottom-menu">
-            <ul class="menu-list">
-                <li><a class="index-anchor" href="webdev.html">Web Dev</a></li>
-                <li><a class="index-anchor" href="https://schnavzersvpremacy.netlify.app" target="_blank">Photography</a></li>
-            </ul>
-        </div>
-    </main>
+            </nav>
+        </footer>
 
-</body>
-
+    </body>
 </html>
