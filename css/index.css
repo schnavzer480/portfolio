@@ -51,7 +51,7 @@ h2 {
     font-size: 2rem;
     border-radius: 15px;
     color: var(--black);
-    background-color: var(--white);
+    background-color: var(--frost);
     margin: 0 2rem 0 2rem;
 }
 .main-links ul {
